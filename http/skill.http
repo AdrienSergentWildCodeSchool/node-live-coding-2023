@@ -2,25 +2,27 @@ POST http://localhost:5000/api/skill
 Content-Type: application/json
 
 {
-    "name": "C++"
+    "name": "Javascript"
 }
+
 ###
 GET http://localhost:5000/api/skill
-Content-Type: application/json
-###
-PUT http://localhost:5000/api/skill
-Content-Type: application/json
 
-{
-    "id": 4,
-    "newData": {
-        "name": "Swift"
-    }
-}
 ###
 DELETE http://localhost:5000/api/skill
 Content-Type: application/json
 
 {
-    "id": 4
+    "id": 1
+}
+
+###
+PUT http://localhost:5000/api/skill
+Content-Type: application/json
+
+{
+    "id": 2,
+    "newData": {
+        "name": "PHP"
+    }
 }

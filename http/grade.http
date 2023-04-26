@@ -1,10 +1,11 @@
 GET http://localhost:5000/api/grade
+
 ###
 POST http://localhost:5000/api/grade
 Content-Type: application/json
 
 {
     "grade": 10,
-    "wilder": "Bobby Doe",
-    "skill": "C++"
+    "wilder": "John Doe",
+    "skill": "Javascript"  
 }
