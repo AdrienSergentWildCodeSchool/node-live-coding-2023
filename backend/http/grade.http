@@ -6,6 +6,6 @@ Content-Type: application/json
 
 {
     "grade": 10,
-    "wilder": "John Doe",
-    "skill": "Javascript"  
+    "wilder": "Bobby Doe",
+    "skill": "Swift"  
 }
